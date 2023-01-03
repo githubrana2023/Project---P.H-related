@@ -63,3 +63,38 @@ nav ul li a::after{
 nav ul li a:hover::after{
   width: 100%;
 }
+
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.intro img{
+  width: 30rem;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.intro img:hover{  
+  box-shadow: 10px 10px 20px #ff004f;
+  transform: scale(1.1);
+}
+
+.intro div h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.intro div p{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 4rem;
+  word-spacing: 5px;
+}
+
+.intro div p span{
+  color: #ff004f;
+  font-size: 40px;
+}
