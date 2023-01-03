@@ -1,0 +1,14 @@
+body{
+  margin: 30px 10%;
+}
+
+body .title{
+        margin-top: 50px;
+    }
+
+    .img{
+      width: 30%;
+    }
+    .img img{
+      width: 100%;
+    }

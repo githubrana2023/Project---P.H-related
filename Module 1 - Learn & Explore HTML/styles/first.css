@@ -1,0 +1,10 @@
+body{
+  margin: 30px 10%;
+}
+body .title{
+  margin-top: 50px;
+}
+
+body .note strong mark{
+  color: red;
+}

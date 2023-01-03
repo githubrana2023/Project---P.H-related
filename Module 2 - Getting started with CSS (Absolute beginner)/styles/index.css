@@ -1,0 +1,172 @@
+*{
+  color: white;
+}
+body{
+  background-color: black;
+}
+
+.module-title{
+  display: block;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: multiply;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  text-transform: capitalize;
+
+}
+
+.grid-item-1{
+  background-image: url("../images/Dev_productivity.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-item-2{
+  background-image: url("../images/Educator_re.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item-3{
+  background-image: url("../images/Happy_feeling.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item-4{
+  background-image: url("../images/learning_sketching.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item-5{
+  background-image: url("../images/Solution_mindset.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item-6{
+  background-image: url("../images/writer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .grid-item-1 p:nth-child(1){
+  color: red;
+}
+
+.container .grid-item-1 p:nth-child(2){
+  color: red;
+  background-color: lightgreen;
+}
+
+.container .grid-item-1 p:nth-child(3){
+  color: red;
+  background-color: lightgreen;
+  font-size: 18px;
+}
+
+.container .grid-item-1 p:nth-child(4){
+  color: red;
+  background-color: lightgreen;
+  font-size: 18px;
+  font-weight: 900;
+}
+.container .grid-item-1 p:nth-child(5){
+  color: red;
+  background-color: lightgreen;
+  font-size: 18px;
+  font-weight: 900;
+  height: 50px;
+}
+
+.container .grid-item-1 p:nth-child(6){
+  color: red;
+  background-color: lightgreen;
+  font-size: 18px;
+  font-weight: 900;
+  height: 50px;
+  width: 100px;
+}
+
+.container .grid-item-1 p:nth-child(7){
+  color: red;
+  background-color: lightgreen;
+  font-size: 18px;
+  font-weight: 900;
+  height: 50px;
+  width: 100px;
+  text-align: right;
+}
+
+.container .grid-item-2 p:nth-child(1){
+  color: white;
+  background-color: #ff004f;
+  padding: 20px 40px;
+}
+
+.container .grid-item-2 p:nth-child(2){
+  color: white;
+  background-color: #ff004f;
+  padding: 20px 40px;
+  border: 5px solid black;
+}
+
+.container .grid-item-2 p:nth-child(3){
+  color: limegreen;
+  background-color: #ff004f;
+  padding: 20px 40px;
+  border: 5px solid black;
+  margin: 60px;
+}
+
+.container .grid-item-2 p:nth-child(4){
+  color: limegreen;
+  background-color: #ff004f;
+  padding: 20px 40px;
+  border: 5px solid black;
+  margin: 0px;
+}
+
+.container .grid-item-2 p:nth-child(5){
+  color: white;
+  background-color: #ff004f;
+  padding: 20px 40px;
+  border: 5px solid black;
+  margin: 10px;
+
+}
+
+
+
+.grid-item-3 p,
+.grid-item-4 p,
+.grid-item-5 p,
+.grid-item-6 p{
+  background-color: black;
+  color: #ff004f;
+  padding: 30px 60px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 4px solid #ff004f;
+  border-radius: 20px;
+  text-transform: capitalize;
+  box-shadow: 10px 10px 20px #ff0051c3;
+}
+
+
